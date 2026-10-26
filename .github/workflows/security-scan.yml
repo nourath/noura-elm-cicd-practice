@@ -17,5 +17,5 @@ jobs:
           scan-type: image
           image-ref: ghcr.io/${{ github.repository }}:latest
           format: table
-          severity: HIGH,CRITICAL
-          exit-code: '0'
+          severity: CRITICAL
+          exit-code: '1'
